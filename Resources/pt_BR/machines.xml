@@ -33,7 +33,6 @@
 			O eletrolizador usa descargas elétricas para decompor os materiais em seus constituintes, tais como sal em sódio e cloro, ou água em hidrogênio e oxigênio. Os produtos pesados são inseridos por baixo, enquanto os leves, por cima. Note que os sólidos devem ser derretidos antes de serem capazes de ser processados.
 		</desc>
 		<note>
-			Energia para eletrolizar sal: %dW
 			Entrada de energia: Qualquer lado horizontal
 			Temperatura necessária para derreter sal: %d°C
 		</note>
@@ -230,7 +229,7 @@
 			Absorvedores de Neutrons interceptam neutrons e transformam sua energia cinética em calor. Assim como no permutador, esse calor pode ser transferido para máquinas adjacentes.
 		</desc>
 		<note>
-
+			
 		</note>
 	</absorber>
 	<collector>
@@ -271,8 +270,8 @@
 			O extrator de fluido, quando submerso em (e tendo pelo menos três lados em contato com) um fluido, pode centrifugá-lo para obter vestígios de outro fluido que foi misturado. Por exemplo, água pesada pode ser centrifugada do fundo dos oceanos (abaixo de y=%d e com pelo menos %dm de água acima), ou o lítio derretido pode ser retirado da superfície da lava.
 		</desc>
 		<note>
-			Potência Mínima: %dW
-			Torque Mínimo: %d Nm
+			Minimum Power: %dW
+			Minimum Torque: %d Nm
 		</note>
 	</fluidextractor>
 	<wastecontainer>
@@ -305,6 +304,7 @@
 		</desc>
 		<note>
 			Saída de RF: Por trás
+			
 			Pode ter seus modos alterados com uma chave de fenda
 		</note>
 	</generator>
